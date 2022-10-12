@@ -1,0 +1,48 @@
+.header{
+    margin-bottom: 20px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    cursor: pointer;
+    &__nb{
+        font-size: 35px;
+        line-height: 43px;
+        padding: 6px 6px 6px 2px;
+        background-color: black;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+    }
+}
+
+.nav{
+    &__link{
+        margin-left: 4rem;
+        font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+
+.active{
+    border-bottom: 3px solid white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

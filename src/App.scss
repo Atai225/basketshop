@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(102.64deg, #9E2ED2 0.61%, #4D0071 91.53%);
+}
+
+._container{
+    max-width: 77.5rem;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1, p {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+a:hover{
+    border-bottom: 3px solid white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+
+
+
